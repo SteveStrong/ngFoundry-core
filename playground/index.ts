@@ -10,7 +10,7 @@ import { FoundryModule }  from 'ngfoundry-core';
 
 @Component({
   selector: 'app',
-  template: `<sample-component></sample-component>`
+  //template: `<sample-component></sample-component>`
 })
 class AppComponent {}
 
