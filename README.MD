@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'ngfoundry-core';
+import { FoundryModule } from 'ngfoundry-core';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { SampleModule } from 'ngfoundry-core';
     BrowserModule,
 
     // Specify your library as an import
-    LibraryModule
+    FoundryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
