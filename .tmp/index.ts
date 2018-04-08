@@ -64,7 +64,7 @@ export * from './foundry/foModel.model';
 export * from './foundry/foNode.model';
 export * from './foundry/foObject.model';
 export * from './foundry/foProperty.model';
-export * from './foundry/foPubSub';
+export { foPubSub } from './foundry/foPubSub';
 export * from './foundry/foRuntimeType';
 export * from './foundry/foSolution.model';
 export * from './foundry/foStencil';
@@ -81,66 +81,10 @@ export * from './foundry/foWorkspace.model';
     CommonModule
   ],
   declarations: [
-    foAttribute,
-    foBitwise,
-    foCollection,
-    foConcept,
-    foController,
-    foDataType,
-    foDictionary,
-    foFileManager,
-    foGlyph,
-    foHandle,
-    foHydrationManager,
-    foInstance,
-    foKnowledge,
-    foLibrary,
-    foLifecycle,
-    foMethod,
-    foModel,
-    foNode,
-    foObject,
-    foProperty
-    foPubSub,
-    foRuntimeType,
-    foSolution,
-    foStencilLibrary,
-    foStructure,
-    foTemplate,
-    foTools,
-    foWorkspace,
-    foUnDo
+    foAttribute
   ],
   exports: [
-    foAttribute,
-    foBitwise,
-    foCollection,
-    foConcept,
-    foController,
-    foDataType,
-    foDictionary,
-    foFileManager,
-    foGlyph,
-    foHandle,
-    foHydrationManager,
-    foInstance,
-    foKnowledge,
-    foLibrary,
-    foLifecycle,
-    foMethod,
-    foModel,
-    foNode,
-    foObject,
-    foProperty
-    foPubSub,
-    foRuntimeType,
-    foSolution,
-    foStencilLibrary,
-    foStructure,
-    foTemplate,
-    foTools,
-    foWorkspace,
-    foUnDo
+    foAttribute
   ]
 })
 export class FoundryModule {
