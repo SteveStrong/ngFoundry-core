@@ -100,7 +100,7 @@ export * from './foundry/foWorkspace.model';
     foModel,
     foNode,
     foObject,
-    foProperty
+    foProperty,
     foPubSub,
     foRuntimeType,
     foSolution,
@@ -131,7 +131,7 @@ export * from './foundry/foWorkspace.model';
     foModel,
     foNode,
     foObject,
-    foProperty
+    foProperty,
     foPubSub,
     foRuntimeType,
     foSolution,
