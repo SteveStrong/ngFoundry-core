@@ -231,5 +231,10 @@ gulp.task('default', ['build:watch']);
  * Deletes the specified folder
  */
 function deleteFolder(folder) {
-  return fs.removeSync(folder);
+  try {
+    return fs.removeSync(folder);
+  } catch (ex) {
+    return true;
+  }
+  
 }

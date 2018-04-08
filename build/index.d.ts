@@ -24,7 +24,7 @@ export * from './foundry/foModel.model';
 export * from './foundry/foNode.model';
 export * from './foundry/foObject.model';
 export * from './foundry/foProperty.model';
-export { foPubSub } from './foundry/foPubSub';
+export * from './foundry/foPubSub';
 export * from './foundry/foRuntimeType';
 export * from './foundry/foSolution.model';
 export * from './foundry/foStencil';
