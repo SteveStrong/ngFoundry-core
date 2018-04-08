@@ -1,5 +1,5 @@
 import { ModuleWithProviders } from '@angular/core';
-export * from 'foundry/foAttribute.model';
+export * from './foundry/foAttribute.model';
 export * from './foundry/foBitwise';
 export * from './foundry/foBuffer';
 export * from './foundry/foChange';

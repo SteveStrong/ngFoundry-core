@@ -33,7 +33,7 @@ import { foTemplate } from './foundry/foTemplate.model';
 import { foTools } from './foundry/foTools';
 import { foUnDo } from './foundry/foUnDo';
 import { foWorkspace } from './foundry/foWorkspace.model';
-export { foAttribute, foViewAttribute } from 'foundry/foAttribute.model';
+export { foAttribute, foViewAttribute } from './foundry/foAttribute.model';
 export { foBitwise } from './foundry/foBitwise';
 export { foBuffer, foCopyPasteBuffer, foHandleBuffer, foSelectionBuffer } from './foundry/foBuffer';
 export { foChangeEvent, foChangeEventLock, ChangeLock, foChange, BroadcastChange } from './foundry/foChange';
