@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 import { Component } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { FoundryModule }  from 'ngfoundry-core';
+import { FoundryModule }  from '../src';
 
 @Component({
   selector: 'app',

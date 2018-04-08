@@ -24,8 +24,6 @@ import { foStage } from './solids/foStage.model';
 
 
 
-
-
 export class LibraryDictionary extends foDictionary<foLibrary>{
     public establish = (name: string): foLibrary => {
         this.findItem(name, () => {
